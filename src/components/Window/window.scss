@@ -1,0 +1,111 @@
+
+
+.main-window{
+  &.home-window {
+    .window-content{
+      .container{
+        .body{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  &.about-window {
+    width: 50%;
+  }
+
+  &.project-window {
+   .window-content{
+    display: flex;
+    gap: 10%;
+   }
+  }
+  cursor: auto;
+  background-color: #fcf6e8;
+  border: 3px solid #FFC107;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: flex-start;
+  transition: all .2s;
+  display: flex;
+  position: relative;
+  bottom: 0;
+  box-shadow: 3px 3px #FFC107;
+  .window-bar{
+    height: 60px;
+    background-color: #f8dfae;
+    border-bottom-color: #FFC107 !important;
+    border-bottom: 3px solid;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    .circle {
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+    background-color: #fcf6e8;
+    border: 3px solid #FFC107;
+    border-radius: 20px;
+    margin-right: 6px;
+    }
+    .bar-items{
+      flex: 1;
+      align-self: stretch;
+      margin-left: 10px;
+      margin-right: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      .title{
+        color: #000000;
+        align-self: center;
+        margin-bottom: 0;
+        padding-top: 8px;
+        font-size: 24px;
+        cursor: default;
+        font-weight: 500;
+        line-height: 24px;
+      }
+    }
+  }
+  .window-content{
+    padding: 40px 60px;
+    .container{
+      .header{
+        color: #b64707;
+        cursor: default;
+        margin-bottom: 10px;
+        padding-top: 4px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+      .body{
+        letter-spacing: -1px;
+        cursor: default;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+
+        .vector_container{
+          img{
+            width: 400px;
+            mix-blend-mode: multiply;
+          }
+        }
+      }
+      .footer{
+        display: flex;
+        justify-content: center;
+        gap: 4px;
+      }
+    }
+  }
+}
