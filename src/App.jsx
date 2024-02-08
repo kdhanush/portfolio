@@ -1,6 +1,7 @@
 import React from "react";
 import Lottie from "react-lottie";
 import "./App.scss";
+import InfiniteLoop from "./components/InfiniteLoop/InfiniteLoop";
 import Navbar from "./components/Navbar/Navbar";
 import animationData from "./assets/animations/workanimation.json";
 import { ReactTyped } from "react-typed";
@@ -17,7 +18,7 @@ import typescriptIcon from  './assets/icons/typescriptIcon.png'
 import tailwindIcon from  './assets/icons/tailwindIcon.png'
 import sassIcon from  './assets/icons/sassIcon.png'
 import helloIcon from './assets/icons/waving.png'
-import InfiniteLoop from "./components/InfiniteLoop/infiniteLoop";
+
 
 const defaultOptions = {
   loop: true,
