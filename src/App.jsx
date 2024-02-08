@@ -1,7 +1,7 @@
 import React from "react";
 import Lottie from "react-lottie";
 import "./App.scss";
-import Navbar from "./components/navbar/navbar";
+import Navbar from "./components/Navbar/Navbar";
 import animationData from "./assets/animations/workanimation.json";
 import { ReactTyped } from "react-typed";
 import reactIcon from "./assets/icons/reactjs.png"
